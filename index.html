@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflıx Project</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,700;1,400;1,600;1,700&family=Bowlby+One+SC&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="bord">
+        <h1> <span id="bign">N</span>ET<span><span id="bigf">F</span>LIX</span></h1>
+    <p>Thank you for signing up at Netflix.Tell us more about your self</p>
+    <form action="">
+        <div id="lab">
+            <label for="name">Name</label><br>
+            <input 
+            class="inputs"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name">
+        </div>
+        <div id="lab">
+            <label for="age">Age</label><br>
+            <input 
+            class="inputs"
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Enter your age">
+        </div>
+        <div id="lab">
+            <label for="email">Email</label><br>
+            <input 
+            class="inputs"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email">
+        </div>
+        <div id="lab">
+            <label for="content-type">Content type</label><br>
+            <select 
+            class="inputs"
+            name="content-type" 
+            id="content-type">
+                <option value="series">Series</option>
+            </select>
+        </div>
+        <div>
+            <label for="movie-type">Movie type</label><br>
+            <input 
+            type="checkbox"
+            name="comedy"
+            id="comedy">
+            <label for="comedy">Comedy</label><br>
+            <input 
+            type="checkbox"
+            name="action"
+            id="action">
+            <label for="action">Action</label><br>
+            <input 
+            type="checkbox"
+            name="romance"
+            id="romance"
+            checked>
+            <label for="romance">Romance</label>
+        </div><br>
+        <div>
+            <label for="gender">Gender</label><br>
+            <input 
+            type="radio"
+            name="male"
+            id="male">
+            <label for="male">Male</label><br>
+            <input 
+            type="radio"
+            name="female"
+            id="female">
+            <label for="male">Female</label><br>
+            <input 
+            type="radio"
+            name="other"
+            id="other">
+            <label for="other">Other</label>
+        </div><br>
+        <label for="feedback">Feed back</label><br>
+        <textarea 
+        class="inputs"
+        name="feedback" 
+        id="feedback" 
+        cols="20" 
+        rows="6"
+        placeholder="Any comment">
+    </textarea>
+    <div class="btn">
+        <input 
+        type="submit" 
+        value="Submit">
+    </div>
+    </form>
+    </div>
+    
+</body>
+</html>
